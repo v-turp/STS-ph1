@@ -1,0 +1,71 @@
+TASK com.score.sts id=101
+  ACTIVITY com.score.sts/.EntryActivity 42ee5458 pid=20422
+    Local Activity 418851e8 State:
+      mResumed=true mStopped=false mFinished=false
+      mLoadersStarted=true
+      mChangingConfigurations=false
+      mCurrentConfig={1 0 1.0 ?mcc?mnc en_US ldltr sw600dp w600dp h951dp 160dpi lrg port finger -keyb/v/h -nav/h s.114}
+    FragmentManager misc state:
+      mActivity=com.score.sts.ManageContacts@418851e8
+      mContainer=android.app.Activity$1@41885378
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{41886238 V.E..... R....... 0,0-600,976}
+        android.widget.LinearLayout{41886998 V.E..... ........ 0,0-600,976}
+          android.view.ViewStub{41888310 G.E..... ......I. 0,0-0,0 #102044a}
+          android.widget.FrameLayout{41888598 V.ED.... ........ 0,25-600,976 #1020002 android:id/content}
+            android.widget.LinearLayout{4188c318 V.E..... ........ 0,0-600,951}
+              android.widget.EditText{4188c820 VFED..CL ........ 0,0-600,40 #7f080078 app:id/etFirstName}
+              android.widget.EditText{41890628 VFED..CL ........ 0,40-600,80 #7f080079 app:id/etLastName}
+              android.widget.EditText{41893550 VFED..CL ........ 0,80-600,120 #7f08007a app:id/etEmail}
+              android.widget.Button{418964b0 VFED..C. ........ 235,120-364,168 #7f08007b app:id/btnSaveContact}
+              android.widget.LinearLayout{41897ae0 V.E..... ........ 0,168-600,336}
+                android.widget.EditText{41897e80 VFED..CL ........ 0,0-600,40 #7f08007c app:id/etFirstNameSearch}
+                android.widget.EditText{41899e20 VFED..CL ........ 0,40-600,80 #7f08007d app:id/etLastNameSearch}
+                android.widget.EditText{4189c6f0 VFED..CL ........ 0,80-600,120 #7f08007e app:id/etEmailSearch}
+                android.widget.Button{419fd668 VFED..C. ........ 223,120-377,168 #7f08007f app:id/btnSearchContacts}
+              android.widget.LinearLayout{419fec60 V.E..... ........ 0,336-600,504}
+                android.widget.EditText{419ff000 VFED..CL ........ 0,0-600,40 #7f080080 app:id/etFirstNameUpdate}
+                android.widget.EditText{41a00e48 VFED..CL ........ 0,40-600,80 #7f080081 app:id/etLastNameUpdate}
+                android.widget.EditText{41a036d0 VFED..CL ........ 0,80-600,120 #7f080082 app:id/etEmailUpdate}
+                android.widget.Button{41a05f58 VFED..C. ........ 226,120-373,168 #7f080083 app:id/btnUpdateContact}
+              android.widget.LinearLayout{41a07548 V.E..... ........ 0,504-600,672}
+                android.widget.EditText{41a078e8 VFED..CL ........ 0,0-600,40 #7f080084 app:id/etFirstNameDelete}
+                android.widget.EditText{41a09730 VFED..CL .F...... 0,40-600,80 #7f080085 app:id/etLastNameDelete}
+                android.widget.EditText{41a0bfb8 VFED..CL ........ 0,80-600,120 #7f080086 app:id/etEmailDelete}
+                android.widget.Button{41a0e840 VFED..C. ........ 230,120-370,168 #7f080087 app:id/btnDeleteContact}
+              android.widget.Button{41a0fe30 VFED..C. ........ 15,692-585,740 #7f080088 app:id/btnShowContacts}
+
+TASK com.squareup.leakcanary id=105
+  ACTIVITY com.score.sts/com.squareup.leakcanary.internal.DisplayLeakActivity 42cd1f18 pid=20422
+    Local Activity 4186cf88 State:
+      mResumed=false mStopped=true mFinished=false
+      mLoadersStarted=false
+      mChangingConfigurations=false
+      mCurrentConfig={1 0 1.0 ?mcc?mnc en_US ldltr sw600dp w600dp h951dp 160dpi lrg port finger -keyb/v/h -nav/h s.114}
+    FragmentManager misc state:
+      mActivity=com.squareup.leakcanary.internal.DisplayLeakActivity@4186cf88
+      mContainer=android.app.Activity$1@4186d108
+      mCurState=3 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{4186f618 I.E..... R....... 0,0-600,976}
+        android.widget.LinearLayout{41872230 V.E..... ........ 0,0-600,976}
+          com.android.internal.widget.ActionBarContainer{41872e98 V.ED.... ........ 0,25-600,81 #102044f android:id/action_bar_container}
+            com.android.internal.widget.ActionBarView{418735e8 V.E..... ........ 0,0-600,56 #1020450 android:id/action_bar}
+              android.widget.LinearLayout{418771d0 V.....C. ........ 9,0-255,56}
+                com.android.internal.widget.ActionBarView$HomeView{41878a68 V.E..... ........ 0,0-56,56}
+                  android.widget.ImageView{418791c8 G.ED.... ......I. 0,0-0,0 #1020281 android:id/up}
+                  android.widget.ImageView{41879c40 V.ED.... ........ 4,4-52,52 #102002c android:id/home}
+                android.widget.LinearLayout{4187b6b8 V.E..... ........ 56,0-246,56}
+                  android.widget.ImageView{4187ba98 G.ED.... ......I. 0,0-0,0 #1020281 android:id/up}
+                  android.widget.LinearLayout{4187be28 V.E..... ........ 0,15-182,40}
+                    android.widget.TextView{4187c338 V.ED.... ........ 0,0-182,25 #1020296 android:id/action_bar_title}
+                    android.widget.TextView{4187f248 G.ED.... ......I. 0,0-0,0 #1020297 android:id/action_bar_subtitle}
+              com.android.internal.view.menu.ActionMenuView{418516f8 V.ED.... ......ID 600,0-600,56}
+            com.android.internal.widget.ActionBarContextView{41881e08 G.E..... ......ID 0,0-0,0 #1020451 android:id/action_context_bar}
+          android.widget.FrameLayout{41882570 V.E..... ........ 0,81-600,976 #1020002 android:id/content}
+            android.widget.LinearLayout{418844a0 V.E..... ........ 0,0-600,895}
+              android.widget.ListView{41884ab8 V.ED.VC. ........ 0,0-600,895 #7f08003a app:id/__leak_canary_display_leak_list}
+              android.widget.TextView{41870f70 G.ED.... ......I. 0,0-0,0 #7f08003b app:id/__leak_canary_display_leak_failure}
+              android.widget.Button{4186ec00 GFED..C. ......I. 0,0-0,0 #7f08003c app:id/__leak_canary_action}
+          com.android.internal.widget.ActionBarContainer{41882978 G.ED.... ......I. 0,0-0,0 #1020452 android:id/split_action_bar}

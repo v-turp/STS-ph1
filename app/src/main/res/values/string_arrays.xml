@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home_navigation_options">
+        <item>Sign In</item>
+        <item>Profile</item>
+        <item>Network</item>
+        <item>Videos</item>
+        <item>Music</item>
+        <item>Register Music</item>
+    </string-array>
+    <string-array name="acceptable_mime_types">
+        <item>audio/midi</item>
+        <item>audio/mpeg</item>
+        <item>audio/ogg</item>
+        <item>audio/mp4</item>
+        <item>video/mp4</item>
+        <item>image/png</item>
+        <item>image/jpeg</item>
+    </string-array>
+</resources>

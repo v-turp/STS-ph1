@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Who Dat\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1-2cde94b27d9b0892bb3a9d9ef81d92edc75c7a5b.jar" />
+    </item>
+    <item
+        jar="C:\Development\tools\Samples\STS\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-bea118f65fcd4e5a51da4f8e038b360c959f7dc8.jar" />
+    </item>
+    <item
+        jar="C:\Projects\Mobile STS\STS\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Projects\Mobile STS\STS\app\build\intermediates\pre-dexed\debug\classes-513ab131b7c4792b1c9b44395765a3396548794f.jar" />
+    </item>
+    <item
+        jar="C:\Projects\Mobile STS\STS\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Projects\Mobile STS\STS\app\build\intermediates\pre-dexed\debug\classes-fa550b508166cf6fc76f372c316a45a0b5dc8f84.jar" />
+    </item>
+    <item
+        jar="C:\Development\tools\android_sdk\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-89f7e710925ed5c5138bda86010f7d9e98817f42.jar" />
+    </item>
+    <item
+        jar="C:\Users\Who Dat\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-library\1.1\b988c01468e3398d46678a2eb48aeb5bde271e9f\hamcrest-library-1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b988c01468e3398d46678a2eb48aeb5bde271e9f">
+        <dex dex="C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\test\debug\hamcrest-library-1.1-dc9de2242a660ede3c8abdc470badfcc08dc66d3.jar" />
+    </item>
+    <item
+        jar="C:\Projects\Mobile STS\STS\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Projects\Mobile STS\STS\app\build\intermediates\pre-dexed\debug\classes-34aa751e70705fcb9247d7f77859a5265b1370d7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Who Dat\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.1\860340562250678d1a344907ac75754e259cdb14\hamcrest-core-1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="860340562250678d1a344907ac75754e259cdb14">
+        <dex dex="C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\test\debug\hamcrest-core-1.1-338787e6c694747c807535a0e0793e4a544c9c8b.jar" />
+    </item>
+    <item
+        jar="C:\Development\tools\Samples\STS\app\build\intermediates\exploded-aar\com.android.support.test.espresso\espresso-core\2.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3e2095347aa9c33370eb72fea3969c0a7254e168">
+        <dex dex="C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\test\debug\classes-a893fe9b813552833d8dd8617293bdd0477654c0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Who Dat\.gradle\caches\modules-2\files-2.1\com.squareup.leakcanary\leakcanary-analyzer\1.3.1\325e7401a7ea16918eb39ba8baad8fd5561a55d3\leakcanary-analyzer-1.3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="325e7401a7ea16918eb39ba8baad8fd5561a55d3">
+        <dex dex="C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\debug\leakcanary-analyzer-1.3.1-39262e66cfcfe9e31a2dbb10cc78a3c9beeb5df4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Who Dat\.gradle\caches\modules-2\files-2.1\javax.annotation\javax.annotation-api\1.2\479c1e06db31c432330183f5cae684163f186146\javax.annotation-api-1.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="479c1e06db31c432330183f5cae684163f186146">
+        <dex dex="C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\test\debug\javax.annotation-api-1.2-42e7cf75f8bd358c2fab8da0b189464b5480cb3e.jar" />
+    </item>
+    <item
+        jar="C:\Projects\Mobile STS\STS\app\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.3.1\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9066b6d4e2536b49e3b58aa301fd925247032df0">
+        <dex dex="C:\Projects\Mobile STS\STS\app\build\intermediates\pre-dexed\debug\classes-292c5739764bff6f2950567030488eb31b24964a.jar" />
+    </item>
+    <item
+        jar="C:\Development\tools\Samples\STS\app\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.3.1\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9066b6d4e2536b49e3b58aa301fd925247032df0">
+        <dex dex="C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\debug\classes-ba4364f1bf6f24b9925418861c2fa324d291c9cc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Who Dat\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\test\debug\javax.inject-1-9126f5d6617d834d9b85e5827449e0d86f9fb580.jar" />
+    </item>
+    <item
+        jar="C:\Users\Who Dat\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-integration\1.1\8d47177aa4da0f259fc823a39736bad2f09993d5\hamcrest-integration-1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d47177aa4da0f259fc823a39736bad2f09993d5">
+        <dex dex="C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\test\debug\hamcrest-integration-1.1-eb9e889c8ab6a56324c32c2e495265b797a50cd5.jar" />
+    </item>
+    <item
+        jar="C:\Development\tools\Samples\STS\app\build\intermediates\exploded-aar\STS\volley\unspecified\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5293e442e67364d8faf80183e0cd608218ebe73b">
+        <dex dex="C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\debug\classes-c3807873982bdc91b15d9aa7a4d18890b8ad2b46.jar" />
+    </item>
+    <item
+        jar="C:\Users\Who Dat\.gradle\caches\modules-2\files-2.1\com.squareup.leakcanary\leakcanary-watcher\1.3.1\6904771474c058abfc5912c13d12b02754712165\leakcanary-watcher-1.3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6904771474c058abfc5912c13d12b02754712165">
+        <dex dex="C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\debug\leakcanary-watcher-1.3.1-01b6a78d48d5afd2122c3baba9e51f00da3cbc17.jar" />
+    </item>
+    <item
+        jar="C:\Users\Who Dat\.gradle\caches\modules-2\files-2.1\junit\junit-dep\4.10\64417b3bafdecd366afa514bd5beeae6c1f85ece\junit-dep-4.10.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="64417b3bafdecd366afa514bd5beeae6c1f85ece">
+        <dex dex="C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\test\debug\junit-dep-4.10-eff90029158e93f0eb1a645a4a93c5af9b6071a8.jar" />
+    </item>
+    <item
+        jar="C:\Development\tools\Samples\STS\app\build\intermediates\exploded-aar\com.android.support.test.espresso\espresso-idling-resource\2.0\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7cc4b00df8357dabd613998c9229ace9bba26ee2">
+        <dex dex="C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\test\debug\classes-85a35ce0eb7192cf7f7a759f68afc7d8ed619ba0.jar" />
+    </item>
+    <item
+        jar="C:\Development\tools\Samples\STS\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
+        <dex dex="C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\debug\classes-ad9bc7b6e4cb173cb3cbeb56ea03d42ad07b430c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Who Dat\.gradle\caches\modules-2\files-2.1\com.squareup.haha\haha\1.3\d2c832f9d14a11c79f58a7ee2e10526a12152c72\haha-1.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d2c832f9d14a11c79f58a7ee2e10526a12152c72">
+        <dex dex="C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\debug\haha-1.3-a149eb9d9627a4582ccd02be22ba058d8f0aa32f.jar" />
+    </item>
+    <item
+        jar="C:\Development\tools\Samples\STS\app\build\intermediates\exploded-aar\com.android.support.test\testing-support-lib\0.1\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2700b782e8c78b36636a15b0ed86126a96295de7">
+        <dex dex="C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\test\debug\classes-dc0d1d8bd2bd817c79136526cb7afcdae9bc3d02.jar" />
+    </item>
+    <item
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Projects\Mobile STS\STS\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-6ededcc9b39f46fbcdd6efbd1a4d51bb6afd2a15.jar" />
+    </item>
+    <item
+        jar="C:\Development\tools\Samples\STS\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\debug\classes-220cbc4223b36316f7be3e2341e14443c9e87965.jar" />
+    </item>
+    <item
+        jar="C:\Users\Who Dat\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\2.0.1\516c03b21d50a644d538de0f0369c620989cd8f0\jsr305-2.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\test\debug\jsr305-2.0.1-bf55adb3a1171bff63962b22ae4c4f94441bd383.jar" />
+    </item>
+    <item
+        jar="C:\Projects\Mobile STS\STS\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Projects\Mobile STS\STS\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-2970a0afc515e87a2d38b5b703d13908045debc2.jar" />
+    </item>
+    <item
+        jar="C:\Projects\Mobile STS\STS\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Projects\Mobile STS\STS\app\build\intermediates\pre-dexed\debug\classes-7b3e8e35754ec1a872df3b92360081b1f63d29fa.jar" />
+    </item>
+    <item
+        jar="C:\Development\tools\Samples\STS\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\debug\classes-798e06fda6de9d6cd7b972eca18454280682a0ba.jar" />
+    </item>
+    <item
+        jar="C:\Development\tools\Samples\STS\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\debug\classes-2a1fb7ad480c873a64d0f1d953199810bbce3d23.jar" />
+    </item>
+    <item
+        jar="C:\Development\tools\Samples\STS\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\debug\classes-cb09b2a541b58c47bff953c86c6c140de3c7e974.jar" />
+    </item>
+    <item
+        jar="C:\Projects\Mobile STS\STS\app\build\intermediates\exploded-aar\STS\volley\unspecified\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="eaa8704c982db8a6ee5e2b0bbc6b4d503f6beeb9">
+        <dex dex="C:\Projects\Mobile STS\STS\app\build\intermediates\pre-dexed\debug\classes-47a9ca4df7b38ca867abc57f3926bdb2d0830377.jar" />
+    </item>
+    <item
+        jar="C:\Projects\Mobile STS\STS\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
+        <dex dex="C:\Projects\Mobile STS\STS\app\build\intermediates\pre-dexed\debug\classes-86467c85d426312ffae99d659244745d4f736f7d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Who Dat\.gradle\caches\modules-2\files-2.1\com.squareup\javawriter\2.1.1\67ff45d9ae02e583d0f9b3432a5ebbe05c30c966\javawriter-2.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
+        <dex dex="C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\test\debug\javawriter-2.1.1-ca311439e5bbba426271e80534c80c6076d73a91.jar" />
+    </item>
+
+</items>

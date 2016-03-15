@@ -1,0 +1,14 @@
+C:\Projects\Mobile STS\STS\app\build\intermediates\classes\debug
+C:\Projects\Mobile STS\STS\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-6ededcc9b39f46fbcdd6efbd1a4d51bb6afd2a15.jar
+C:\Projects\Mobile STS\STS\app\build\intermediates\pre-dexed\debug\leakcanary-watcher-1.3.1-01b6a78d48d5afd2122c3baba9e51f00da3cbc17.jar
+C:\Projects\Mobile STS\STS\app\build\intermediates\pre-dexed\debug\leakcanary-analyzer-1.3.1-39262e66cfcfe9e31a2dbb10cc78a3c9beeb5df4.jar
+C:\Projects\Mobile STS\STS\app\build\intermediates\pre-dexed\debug\classes-86467c85d426312ffae99d659244745d4f736f7d.jar
+C:\Projects\Mobile STS\STS\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1-2cde94b27d9b0892bb3a9d9ef81d92edc75c7a5b.jar
+C:\Projects\Mobile STS\STS\app\build\intermediates\pre-dexed\debug\classes-292c5739764bff6f2950567030488eb31b24964a.jar
+C:\Projects\Mobile STS\STS\app\build\intermediates\pre-dexed\debug\classes-47a9ca4df7b38ca867abc57f3926bdb2d0830377.jar
+C:\Projects\Mobile STS\STS\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-2970a0afc515e87a2d38b5b703d13908045debc2.jar
+C:\Projects\Mobile STS\STS\app\build\intermediates\pre-dexed\debug\classes-7b3e8e35754ec1a872df3b92360081b1f63d29fa.jar
+C:\Projects\Mobile STS\STS\app\build\intermediates\pre-dexed\debug\haha-1.3-a149eb9d9627a4582ccd02be22ba058d8f0aa32f.jar
+C:\Projects\Mobile STS\STS\app\build\intermediates\pre-dexed\debug\classes-34aa751e70705fcb9247d7f77859a5265b1370d7.jar
+C:\Projects\Mobile STS\STS\app\build\intermediates\pre-dexed\debug\classes-513ab131b7c4792b1c9b44395765a3396548794f.jar
+C:\Projects\Mobile STS\STS\app\build\intermediates\pre-dexed\debug\classes-fa550b508166cf6fc76f372c316a45a0b5dc8f84.jar

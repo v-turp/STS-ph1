@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.score.sts">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <!-- jellybean - marshmallow -->
+    <uses-sdk android:targetSdkVersion="23"
+              android:minSdkVersion="16" />
+
+
+    <application
+        android:name=".SoundtracksAndScores"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+
+        <!-- === ACTIVITIES === -->
+        <!-- Entry Point Activity -->
+        <activity
+            android:name=".LandingPage"
+            android:label="@string/title_activity_entry"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ManageContacts"
+                  android:windowSoftInputMode="stateHidden"/>
+
+        <!-- Main navigation Activity -->
+        <activity android:name=".NavigationActivity" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.NAVIGATION_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <!-- === COMPONENTS === -->
+        <!-- ConnectionsProvider -->
+        <provider android:name="data.management.ConnectionsProvider" android:exported="false"
+                  android:authorities="com.sts.provider.Connections">
+        </provider>
+        <!-- ContactsUpdateService -->
+        <service android:name="data.management.ContactsUpdateService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.score.sts.action.CONTACT_UPDATE_SERVICE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <!-- UtilService -->
+        <service android:name=".util.UtilService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.score.sts.util.action.UTIL_SERVICE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <!-- BroadcastUtilScheduler -->
+        <receiver android:name=".util.BroadcastUtilScheduler" android:exported="false" android:process=":remote">
+            <intent-filter>
+                <action android:name="com.score.sts.util.action.UTIL_SCHEDULER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

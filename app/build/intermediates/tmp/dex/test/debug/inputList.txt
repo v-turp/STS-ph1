@@ -1,0 +1,12 @@
+C:\Development\tools\Samples\STS\app\build\intermediates\classes\test\debug
+C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\test\debug\javax.inject-1-9126f5d6617d834d9b85e5827449e0d86f9fb580.jar
+C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\test\debug\classes-85a35ce0eb7192cf7f7a759f68afc7d8ed619ba0.jar
+C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\test\debug\hamcrest-integration-1.1-eb9e889c8ab6a56324c32c2e495265b797a50cd5.jar
+C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\test\debug\javawriter-2.1.1-ca311439e5bbba426271e80534c80c6076d73a91.jar
+C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\test\debug\jsr305-2.0.1-bf55adb3a1171bff63962b22ae4c4f94441bd383.jar
+C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\test\debug\javax.annotation-api-1.2-42e7cf75f8bd358c2fab8da0b189464b5480cb3e.jar
+C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\test\debug\hamcrest-core-1.1-338787e6c694747c807535a0e0793e4a544c9c8b.jar
+C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\test\debug\hamcrest-library-1.1-dc9de2242a660ede3c8abdc470badfcc08dc66d3.jar
+C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\test\debug\classes-dc0d1d8bd2bd817c79136526cb7afcdae9bc3d02.jar
+C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\test\debug\junit-dep-4.10-eff90029158e93f0eb1a645a4a93c5af9b6071a8.jar
+C:\Development\tools\Samples\STS\app\build\intermediates\pre-dexed\test\debug\classes-a893fe9b813552833d8dd8617293bdd0477654c0.jar

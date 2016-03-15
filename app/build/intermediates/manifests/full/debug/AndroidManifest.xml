@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.score.sts"
+    android:versionCode="1"
+    android:versionName="1.0" >
+ <!-- jellybean - marshmallow -->
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- To store the heap dumps and leak analysis results. -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.score.sts.SoundtracksAndScores"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- === ACTIVITIES === -->
+        <!-- Entry Point Activity -->
+        <activity
+            android:name="com.score.sts.LandingPage"
+            android:label="@string/title_activity_entry"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.score.sts.ManageContacts"
+            android:windowSoftInputMode="stateHidden" />
+
+        <!-- Main navigation Activity -->
+        <activity
+            android:name="com.score.sts.NavigationActivity"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.NAVIGATION_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- === COMPONENTS === -->
+        <!-- ConnectionsProvider -->
+        <provider
+            android:name="data.management.ConnectionsProvider"
+            android:authorities="com.sts.provider.Connections"
+            android:exported="false" >
+        </provider>
+        <!-- ContactsUpdateService -->
+        <service
+            android:name="data.management.ContactsUpdateService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.score.sts.action.CONTACT_UPDATE_SERVICE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <!-- UtilService -->
+        <service
+            android:name="com.score.sts.util.UtilService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.score.sts.util.action.UTIL_SERVICE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <!-- BroadcastUtilScheduler -->
+        <receiver
+            android:name="com.score.sts.util.BroadcastUtilScheduler"
+            android:exported="false"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.score.sts.util.action.UTIL_SCHEDULER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"
+            android:enabled="false"
+            android:process=":leakcanary" />
+        <service
+            android:name="com.squareup.leakcanary.DisplayLeakService"
+            android:enabled="false" />
+
+        <activity
+            android:name="com.squareup.leakcanary.internal.DisplayLeakActivity"
+            android:enabled="false"
+            android:icon="@drawable/__leak_canary_icon"
+            android:label="@string/__leak_canary_display_activity_label"
+            android:taskAffinity="com.squareup.leakcanary"
+            android:theme="@style/__LeakCanary.Base" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
