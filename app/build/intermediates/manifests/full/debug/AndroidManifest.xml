@@ -23,11 +23,16 @@
         android:theme="@style/AppTheme" >
 
         <!-- === ACTIVITIES === -->
-        <!-- Entry Point Activity -->
         <activity
             android:name="com.score.sts.LandingPage"
             android:label="@string/title_activity_entry"
             android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+
+        <!-- Splash page Activity -->
+        <activity
+            android:name="com.score.sts.Splash"
             android:windowSoftInputMode="stateHidden" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -35,6 +40,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Activity with CRUD features for managing users - this is a test class -->
         <activity
             android:name="com.score.sts.ManageContacts"
             android:windowSoftInputMode="stateHidden" />

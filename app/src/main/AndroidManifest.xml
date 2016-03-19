@@ -20,19 +20,23 @@
 
 
         <!-- === ACTIVITIES === -->
-        <!-- Entry Point Activity -->
         <activity
             android:name=".LandingPage"
             android:label="@string/title_activity_entry"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden">
+        </activity>
+
+        <!-- Splash page Activity -->
+        <activity android:name=".Splash"
+                  android:windowSoftInputMode="stateHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
+        <!-- Activity with CRUD features for managing users - this is a test class -->
         <activity android:name=".ManageContacts"
                   android:windowSoftInputMode="stateHidden"/>
 

@@ -2859,8 +2859,9 @@ containing a value of this type.
         public static final int select_dialog_item_material=0x7f03003c;
         public static final int select_dialog_multichoice_material=0x7f03003d;
         public static final int select_dialog_singlechoice_material=0x7f03003e;
-        public static final int support_simple_spinner_dropdown_item=0x7f03003f;
-        public static final int videos_fragment=0x7f030040;
+        public static final int splash=0x7f03003f;
+        public static final int support_simple_spinner_dropdown_item=0x7f030040;
+        public static final int videos_fragment=0x7f030041;
     }
     public static final class string {
         public static final int __leak_canary_analysis_failed=0x7f0b0000;
