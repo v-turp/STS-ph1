@@ -9,5 +9,7 @@
 
     <style name="AppTheme" parent="android:Theme.Material"><!-- ADDED 2/5  step 2 same style name as values folder-->
         <!-- Customize your theme here. -->
+        <!-- enable window content transitions -->
+        <item name="android:windowActivityTransitions">true</item>
     </style>
 </resources>
