@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.score.sts">
+    package="com.score.sts"> <!-- jellybean - marshmallow -->
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
-    <!-- jellybean - marshmallow -->
-    <uses-sdk android:targetSdkVersion="23"
-              android:minSdkVersion="16" />
-
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
         android:name=".SoundtracksAndScores"
@@ -18,60 +19,78 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
 
-
         <!-- === ACTIVITIES === -->
         <activity
             android:name=".LandingPage"
             android:label="@string/title_activity_entry"
             android:theme="@style/AppTheme.NoActionBar"
-            android:windowSoftInputMode="stateHidden">
-        </activity>
+            android:windowSoftInputMode="stateHidden"></activity>
 
         <!-- Splash page Activity -->
-        <activity android:name=".Splash"
-                  android:windowSoftInputMode="stateHidden">
+        <activity
+            android:name=".Splash"
+            android:windowSoftInputMode="stateHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
         <!-- Activity with CRUD features for managing users - this is a test class -->
-        <activity android:name=".ManageContacts"
-                  android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name=".ManageContacts"
+            android:windowSoftInputMode="stateHidden"/>
 
+        <activity
+            android:name=".Landing"
+            android:windowSoftInputMode="stateHidden"/>
         <!-- Main navigation Activity -->
-        <activity android:name=".NavigationActivity" android:exported="false">
+        <activity
+            android:name=".NavigationActivity"
+            android:exported="false">
             <intent-filter>
-                <action android:name="android.intent.action.NAVIGATION_ACTIVITY"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.NAVIGATION_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
         <!-- === COMPONENTS === -->
         <!-- ConnectionsProvider -->
-        <provider android:name="data.management.ConnectionsProvider" android:exported="false"
-                  android:authorities="com.sts.provider.Connections">
-        </provider>
+        <provider
+            android:name="data.management.ConnectionsProvider"
+            android:authorities="com.sts.provider.Connections"
+            android:exported="false"></provider>
         <!-- ContactsUpdateService -->
-        <service android:name="data.management.ContactsUpdateService" android:exported="false">
+        <service
+            android:name="data.management.ContactsUpdateService"
+            android:exported="false">
             <intent-filter>
-                <action android:name="com.score.sts.action.CONTACT_UPDATE_SERVICE"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.score.sts.action.CONTACT_UPDATE_SERVICE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </service>
         <!-- UtilService -->
-        <service android:name=".util.UtilService" android:exported="false">
+        <service
+            android:name=".util.UtilService"
+            android:exported="false">
             <intent-filter>
-                <action android:name="com.score.sts.util.action.UTIL_SERVICE"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.score.sts.util.action.UTIL_SERVICE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </service>
         <!-- BroadcastUtilScheduler -->
-        <receiver android:name=".util.BroadcastUtilScheduler" android:exported="false" android:process=":remote">
+        <receiver
+            android:name=".util.BroadcastUtilScheduler"
+            android:exported="false"
+            android:process=":remote">
             <intent-filter>
-                <action android:name="com.score.sts.util.action.UTIL_SCHEDULER"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.score.sts.util.action.UTIL_SCHEDULER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </receiver>
     </application>

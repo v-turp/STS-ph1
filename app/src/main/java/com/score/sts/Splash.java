@@ -44,14 +44,14 @@ public class Splash extends AppCompatActivity {
 
             @Override
             public void run() {
-                Intent intent = new Intent(getBaseContext(), ManageContacts.class);
+                Intent intent = new Intent(getBaseContext(), Landing.class);
                 if( Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                     startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(Splash.this).toBundle());
                 }else
                     startActivity(intent);
                     overridePendingTransition(android.R.anim.fade_in, android.R.anim.slide_out_right);
             }
-        }, 3000);
+        }, 4000);
     }
 } // end class Splash
 
