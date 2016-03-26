@@ -28,7 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:weightSum="2">
+            android:weightSum="4">
 
             <FrameLayout
                 android:id="@+id/flMusicFragmentContainer"
@@ -42,6 +42,13 @@
                 android:background="@color/red_900"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_weight="2"/>
+
+            <FrameLayout
+                android:id="@+id/flContactsFragmentContainer"
+                android:background="@color/red_200"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
                 android:layout_weight="1"/>
 
         </LinearLayout>
@@ -51,18 +58,26 @@
             android:id="@+id/llBottom"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:weightSum="4">
 
             <FrameLayout
                 android:id="@+id/flLoginFragmentContainer"
                 android:background="@color/green_900"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"/>
+                android:layout_weight="2"/>
 
             <FrameLayout
                 android:id="@+id/flVideoFragmentContainer"
                 android:background="@color/green_500"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <FrameLayout
+                android:id="@+id/flRegisterWorksFragmentContainer"
+                android:background="@color/green_200"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"/>
