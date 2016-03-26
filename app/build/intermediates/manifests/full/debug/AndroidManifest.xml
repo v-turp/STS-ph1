@@ -12,8 +12,8 @@
     <uses-permission android:name="android.permission.USE_FINGERPRINT" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
-    <!-- To store the heap dumps and leak analysis results. -->
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
         android:name="com.score.sts.SoundtracksAndScores"
@@ -27,8 +27,7 @@
             android:name="com.score.sts.LandingPage"
             android:label="@string/title_activity_entry"
             android:theme="@style/AppTheme.NoActionBar"
-            android:windowSoftInputMode="stateHidden" >
-        </activity>
+            android:windowSoftInputMode="stateHidden" />
 
         <!-- Splash page Activity -->
         <activity
@@ -45,7 +44,9 @@
         <activity
             android:name="com.score.sts.ManageContacts"
             android:windowSoftInputMode="stateHidden" />
-
+        <activity
+            android:name="com.score.sts.Landing"
+            android:windowSoftInputMode="stateHidden" />
         <!-- Main navigation Activity -->
         <activity
             android:name="com.score.sts.NavigationActivity"
@@ -62,8 +63,7 @@
         <provider
             android:name="data.management.ConnectionsProvider"
             android:authorities="com.sts.provider.Connections"
-            android:exported="false" >
-        </provider>
+            android:exported="false" />
         <!-- ContactsUpdateService -->
         <service
             android:name="data.management.ContactsUpdateService"
