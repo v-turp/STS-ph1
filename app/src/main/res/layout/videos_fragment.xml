@@ -3,19 +3,11 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!--<android.support.v7.widget.RecyclerView
-        android:id="@+id/rvVideosFrag"
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />-->
-
-
-    <TextView
-        android:id="@+id/tvVideosFragTag"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/video_fragment_tag"
-        android:visibility="visible"
-        android:textSize="@dimen/standard_text_size"/>
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:src="@drawable/network_services"/>
 
 </LinearLayout>

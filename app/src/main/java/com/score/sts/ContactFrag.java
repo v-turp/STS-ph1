@@ -40,14 +40,15 @@ public class ContactFrag extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View contactView = inflater.inflate(R.layout.contacts_recycler, container, false);
+//        View contactView = inflater.inflate(R.layout.contacts_recycler, container, false); // TODO in the process of possibly removing this layout.
+        View contactView = inflater.inflate(R.layout.contact_fragment, container, false);
 //        ButterKnife.bind(this, contactView); TODO try binding to contactView if binding to the activity doesn't work. In all the other frags, it is bound to the activity
         return contactView;
     }
 
     private void init(){
-        ButterKnife.bind(this, getActivity());
-        watcher = SoundtracksAndScores.getRefWatcher(getActivity());
+//        ButterKnife.bind(this, getActivity());
+//        watcher = SoundtracksAndScores.getRefWatcher(getActivity());
     }
 
 }
