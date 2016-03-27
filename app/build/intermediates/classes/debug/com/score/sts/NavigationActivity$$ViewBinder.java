@@ -8,8 +8,8 @@ import butterknife.ButterKnife.ViewBinder;
 public class NavigationActivity$$ViewBinder<T extends com.score.sts.NavigationActivity> implements ViewBinder<T> {
   @Override public void bind(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131296426, "field 'vpNavigation'");
-    target.vpNavigation = finder.castView(view, 2131296426, "field 'vpNavigation'");
+    view = finder.findRequiredView(source, 2131296427, "field 'vpNavigation'");
+    target.vpNavigation = finder.castView(view, 2131296427, "field 'vpNavigation'");
   }
 
   @Override public void unbind(T target) {

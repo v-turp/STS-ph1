@@ -46,6 +46,6 @@ public final class R {
 		public static final int __leak_canary_toast_heap_dump = 0x7f0b000b;
 	}
 	public static final class style {
-		public static final int __LeakCanary_Base = 0x7f0c013b;
+		public static final int __LeakCanary_Base = 0x7f0c014f;
 	}
 }
