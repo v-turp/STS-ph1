@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
@@ -13,6 +14,7 @@
         android:layout_weight="1"
         android:layout_height="match_parent"
         android:layout_width="0dp"
+        android:layout_marginRight="@dimen/standard_margin_size"
         android:foreground="@drawable/sts_logo_original"/>
 
     <LinearLayout
@@ -27,6 +29,7 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginRight="@dimen/standard_margin_size"
             android:layout_weight="1"
             android:weightSum="4">
 
@@ -35,6 +38,7 @@
                 android:background="@color/red_500"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/standard_margin_size"
                 android:layout_weight="1"/>
 
             <FrameLayout
@@ -42,6 +46,7 @@
                 android:background="@color/red_900"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/standard_margin_size"
                 android:layout_weight="2"/>
 
             <FrameLayout
@@ -66,6 +71,7 @@
                 android:background="@color/green_900"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/standard_margin_size"
                 android:layout_weight="2"/>
 
             <FrameLayout
@@ -73,6 +79,7 @@
                 android:background="@color/green_500"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/standard_margin_size"
                 android:layout_weight="1"/>
 
             <FrameLayout
