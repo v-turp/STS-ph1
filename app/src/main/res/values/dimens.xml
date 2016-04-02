@@ -9,8 +9,12 @@
     <dimen name="standard_toolbar_height">40dp</dimen>
     <dimen name="standard_toolbar_top_margin">8dp</dimen>
     <dimen name="standard_toolbar_more_left_margin">530dp</dimen>
-    <dimen name="ic_menu_left_margin">3dp</dimen>
+    <dimen name="ic_menu_left_margin_land">3dp</dimen>
     <dimen name="app_name_toolbar_margin_right_land">215dp</dimen>
+    <dimen name="app_name_toolbar_margin_right_portrait">20dp</dimen>
     <dimen name="app_name_toolbar_margin_left_land">8dp</dimen>
     <dimen name="ic_more_left_margin_land">7dp</dimen>
+    <dimen name="ic_more_left_margin_portrait">7dp</dimen>
+    <dimen name="ic_more_right_margin_portrait">2dp</dimen>
+    <dimen name="ic_menu_left_margin_portrait">2dp</dimen>
 </resources>
