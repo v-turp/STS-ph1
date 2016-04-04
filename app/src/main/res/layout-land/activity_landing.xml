@@ -86,7 +86,7 @@
                 android:weightSum="4">
 
                 <FrameLayout
-                    android:id="@+id/flMusicFragmentContainer"
+                    android:id="@+id/flLoginFragmentContainer"
                     android:background="@color/red_500"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -119,7 +119,7 @@
                 android:weightSum="4">
 
                 <FrameLayout
-                    android:id="@+id/flLoginFragmentContainer"
+                    android:id="@+id/flRegisterWorksFragmentContainer"
                     android:background="@color/green_900"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -135,7 +135,7 @@
                     android:layout_weight="1"/>
 
                 <FrameLayout
-                    android:id="@+id/flRegisterWorksFragmentContainer"
+                    android:id="@+id/flMusicFragmentContainer"
                     android:background="@color/green_200"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
