@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import butterknife.Bind;
 import butterknife.ButterKnife;
 
 /**

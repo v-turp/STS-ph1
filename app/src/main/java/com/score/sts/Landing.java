@@ -1,10 +1,13 @@
 package com.score.sts;
 
+import android.app.DialogFragment;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.FrameLayout;
 
 
 public class Landing extends AppCompatActivity {
@@ -43,6 +46,22 @@ public class Landing extends AppCompatActivity {
             supportFragmentTransaction.add(R.id.flRegisterWorksFragmentContainer, mRegisterWorkFragment);
             supportFragmentTransaction.add(R.id.flLoginFragmentContainer, mLoginFragment);
             supportFragmentTransaction.commit();
+        }
+
+        showCreateAccountDialog();
+    } // end method init
+
+    private void showCreateAccountDialog(){
+
+        final DialogFragment createAccountDialog = new CreateAccountFrag();
+        final FrameLayout mSignUp = (FrameLayout) findViewById(R.id.flProfileFragmentContainer);
+        if (mSignUp != null) {
+            mSignUp.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    createAccountDialog.show(getFragmentManager(), "sign up fragment");
+                }
+            });
         }
     }
 }
