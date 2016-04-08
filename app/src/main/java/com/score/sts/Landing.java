@@ -49,6 +49,7 @@ public class Landing extends AppCompatActivity {
         }
 
         showCreateAccountDialog();
+        showLoginDialogFragment();
     } // end method init
 
     private void showCreateAccountDialog(){
@@ -63,5 +64,19 @@ public class Landing extends AppCompatActivity {
                 }
             });
         }
+    }
+
+    private void showLoginDialogFragment(){
+        final DialogFragment loginDialog = new LoginDialogFragment();
+        final FrameLayout mProfileFragmentContainer = (FrameLayout) findViewById(R.id.flLoginFragmentContainer);
+        if(mProfileFragmentContainer != null){
+            mProfileFragmentContainer.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    loginDialog.show(getFragmentManager(), "login fragment");
+                }
+            });
+        }
+
     }
 }
