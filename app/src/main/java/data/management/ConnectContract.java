@@ -1,4 +1,4 @@
-package data.management;
+package data.management; 
 
 import android.net.Uri;
 import android.provider.BaseColumns;
